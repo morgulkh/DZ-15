@@ -142,20 +142,26 @@
 	<script>
 		$('.slider').slick({
 			slidesToShow: 4,
+			slidesToScroll: 1,
+			dots: false,
+			arrows: true,
 			responsive: [
 				{
 					breakpoint: 1024,
 					settings: {
 						slidesToShow: 3,
-						dots: false
+						slidesToScroll: 1,
+						dots: false,
+						arrows: true,
 					}
 				},
 				{
 					breakpoint: 768,
 					settings: {
 						slidesToShow: 2,
+						slidesToScroll: 1,
 						dots: true,
-						arrows: false
+						arrows: false,
 					}
 				},
 				{
@@ -164,7 +170,7 @@
 						slidesToScroll: 1,
 						slidesToShow: 1,
 						dots: true,
-						arrows: false
+						arrows: false,
 					}
 				}
 			]
