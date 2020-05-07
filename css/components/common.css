@@ -153,6 +153,7 @@
     border-radius: 50%;
     background-color: #292f36;
     transition: background-color .15s linear;
+    outline: none;
 }
 
 .slider li button:hover {
