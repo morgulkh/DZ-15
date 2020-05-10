@@ -24,27 +24,27 @@
     transition: opacity .15s linear;
 }
 
-.card ul {
+.social-nw {
     margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
 
-.card li {
+.social-nw li {
     list-style-type: none;
-    margin: 1px;
 }
 
-.card a {
+.social-nw a {
     color: #fff;
     background-color: #3a454d;
     text-decoration: none;
     padding: 17px;
+    margin: 1px;
     transition: background-color.15s linear;
 }
 
-.card a:hover {
+.social-nw a:hover {
     background-color: #4e5a62;
 }
 
@@ -90,6 +90,10 @@
     position: relative;
 }
 
+.slick-initialized {
+    padding: 0 35px;
+}
+
 .slider .slick-arrow {
     position: absolute;
     top: 50%;
@@ -99,9 +103,6 @@
     height: 30px;
     border: 0;
     border-radius: 50%;
-}
-
-.slider .slick-arrow {
     background-color: #e1e6ea;
     color: #292f36;
     transition: background-color .15s linear, color .15s linear;
@@ -117,12 +118,16 @@
     transform: scale(.95);
 }
 
+.slider .slick-prev {
+    left: 10px;
+}
+
 .slider .slick-prev:before {
     font-family: 'icomoon'; font-size: 20px; content: "\e967";
 }
 
 .slider .slick-next {
-    right: 0;
+    right: 10px;
 }
 
 .slider .slick-next:before {
